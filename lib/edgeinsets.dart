@@ -39,9 +39,9 @@ class Edgeinsets extends StatelessWidget {
             Container(
               color: Colors.grey[300],
               child: Container(
-                padding: EdgeInsets.only(left: 30, top: 10, right: 5, bottom: 20),
+                padding: EdgeInsets.only(left: 10, top: 10, right: 5, bottom: 20),
                 color: Colors.blue,
-                child: Text('EdgeInSets.only(left: 30, top: 10, right: 5, bottom: 20)',
+                child: Text('EdgeInSets.only(left: 10, top: 10, right: 5, bottom: 20)',
                     style: TextStyle(color: Colors.white)),
               ),
             ),

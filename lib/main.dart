@@ -3,6 +3,7 @@ import 'package:appdev_finalproject/page1.dart';
 import 'package:appdev_finalproject/page2.dart';
 import 'package:appdev_finalproject/pavlova.dart';
 import 'package:appdev_finalproject/edgeinsets.dart';
+import 'package:appdev_finalproject/alignment.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Edgeinsets(),
+      home: const MainAlignment(),
     );
   }
 }
